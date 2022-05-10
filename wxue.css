@@ -112,7 +112,7 @@ body {
 
 #nav {
 	float: right;
-	text-transform: lowercase;
+	/*text-transform: lowercase;*/
 	font-size: 1.5em;
 }
 
@@ -483,6 +483,16 @@ input[type=submit]:active {
 	right: -60px;
 }
 
+
+.leftf {
+    float: left;
+}
+.rightf {
+    margin-left: 480px;
+    height: 300px;
+}
+
+
 .fancybox-wrap:hover .fancybox-next span {
 	visibility: visible;
 	background-position: 0 -40px;
@@ -503,6 +513,9 @@ input[type=submit]:active {
 	}
 
 }
+
+
+
 
 @media screen and (max-width:760px) {
 	#title {
