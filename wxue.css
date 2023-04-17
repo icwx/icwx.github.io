@@ -15,6 +15,20 @@ html {
 
 body { height: 100%; margin: 0; padding: 0; }
 
+.container {
+	display: flex;
+  }
+  
+  .image {
+	padding-left: 0px;
+	flex: 1;
+  }
+  
+  .text-box {
+	flex: 1;
+	padding-left: -100px;
+	padding-left: -100px;
+  }
 
 #push-footer {
 	height: 60px;
