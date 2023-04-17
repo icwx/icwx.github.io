@@ -17,17 +17,18 @@ body { height: 100%; margin: 0; padding: 0; }
 
 .container {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
   }
   
   .image {
-	padding-left: 0px;
-	flex: 1;
+	flex: 0 0 30%;
+	margin-right: 20px;
   }
   
   .text-box {
 	flex: 1;
-	padding-left: -100px;
-	padding-left: -100px;
   }
 
 #push-footer {
