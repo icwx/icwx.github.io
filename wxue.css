@@ -38,6 +38,11 @@ body { height: 100%; margin: 0; padding: 0; }
   	align-items: center;
   }
 
+  .clustrmaps-widget {
+	opacity: 0;
+	pointer-events: none;
+  }
+
 #push-footer {
 	height: 60px;
 }
