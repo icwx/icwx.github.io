@@ -31,6 +31,11 @@ body { height: 100%; margin: 0; padding: 0; }
 	flex: 1;
   }
 
+  .clustrmaps-container {
+	width: 200px; /* adjust to your desired width */
+	height: 200px; /* adjust to your desired height */
+  }
+
 #push-footer {
 	height: 60px;
 }
